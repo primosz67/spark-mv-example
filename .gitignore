@@ -1,0 +1,11 @@
+vendor/*
+vendor
+vendor/**
+
+.git
+.idea
+composer.lock
+
+app/src/proxy/
+app/view/compile/
+app/view/cache/
