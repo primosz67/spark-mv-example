@@ -18,7 +18,6 @@ use spark\core\annotation\SmartyViewConfiguration;
  */
 class ExampleConfig {
 
-
     /**
      * @Bean()
      */
@@ -34,5 +33,4 @@ class ExampleConfig {
         ));
         return $baseDao;
     }
-
 }
