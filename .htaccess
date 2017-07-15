@@ -1,0 +1,21 @@
+
+RewriteEngine On
+
+# -f - is normal file
+# !-f - is not a file
+# [QSA] - append to url
+# [L] - last command and now rewrite
+
+#Execute index.php if not a file,
+RewriteCond %{REQUEST_URI} !^/app/public(.*)?$
+RewriteCond %{REQUEST_URI} !^.*\..+$
+RewriteCond %{REQUEST_URI} !^/files/account/(.*)?$
+RewriteRule ^(.*)?$  app/public/index.php [L]
+
+#Check file exist then redirect to app/public
+RewriteCond %{DOCUMENT_ROOT}/app/public%{REQUEST_URI} -f
+RewriteRule ^(.*)?$ /app/public/$1 [QSA,L]
+
+#Check file not exist and then redirect to /app/public/index.php. Use Exception Resolver to handle 404
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)?$ /app/public/index.php [QSA,L]

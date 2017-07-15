@@ -1,0 +1,31 @@
+
+/*Reset*/
+
+html,body, h1 {margin: 0px; padding: 0px;}
+
+
+
+/*Css*/
+body {
+    background: #e0e0e0;
+}
+
+.top-menu {
+    background: #454245;
+    padding:20px 0px;
+    color: #eeeeee;
+}
+.top-menu a {
+    padding: 10px;
+    display: inline-block;
+}
+.top-menu a:hover {
+    background: #656165;
+}
+
+.container {width: 920px;margin: 0 auto;}
+.right {float: right;}
+.left {float: left;}
+.clearfix {clear: both;}
+
+a {color: greenyellow;text-decoration: none;}
