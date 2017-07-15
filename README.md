@@ -1,4 +1,4 @@
-# sparkMVC example
+# spark MVC example
 
 ## How to install ##
 
@@ -10,13 +10,13 @@
 
 Enable rewrite mode:
 
-```php
+```
 a2enmod rewrite
 ```
 
 Example of virtual host:
 
-```php
+```
 <VirtualHost *:80>
         ServerName example.com
         ServerAlias example.com
