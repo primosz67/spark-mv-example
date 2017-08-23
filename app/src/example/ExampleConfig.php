@@ -12,9 +12,8 @@ use spark\core\annotation\SmartyViewConfiguration;
 /**
  * @Configuration()
  *
- * Change # to @ to see how things speed up;
- * #EnableApcuBeanCache(resetParam="reset")
- * #SmartyViewConfiguration(caching=true, forceCompile=false, compileCheck=false, cacheLifetime=3600)
+ * @EnableApcuBeanCache(resetParam="reset")
+ * @SmartyViewConfiguration(caching=true, forceCompile=false, compileCheck=false, cacheLifetime=3600)
  */
 class ExampleConfig {
 

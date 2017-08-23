@@ -33,5 +33,11 @@ Example of virtual host:
 </VirtualHost>
 ```
 
+### Development mode ### 
 
-`
+From file  example/ExampleConfig.php remove two line  (or remove @).  
+
+```php
+ * @EnableApcuBeanCache(resetParam="reset")
+ * @SmartyViewConfiguration(caching=true, forceCompile=false, compileCheck=false, cacheLifetime=3600)
+```
