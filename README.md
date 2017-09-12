@@ -35,7 +35,7 @@ Example of virtual host:
 
 ### Development mode ### 
 
-From file  example/ExampleConfig.php remove two line  (or remove @).  
+From file  example/ExampleConfig.php remove two line (or remove @).  
 
 ```php
  * @EnableApcuBeanCache(resetParam="reset")

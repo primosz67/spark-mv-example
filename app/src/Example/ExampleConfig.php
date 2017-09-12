@@ -1,13 +1,13 @@
 <?php
 
 
-namespace example;
+namespace Example;
 
-use example\dao\BaseDao;
-use spark\core\annotation\Bean;
-use spark\core\annotation\Configuration;
-use spark\core\annotation\EnableApcuBeanCache;
-use spark\core\annotation\SmartyViewConfiguration;
+use Example\Dao\BaseDao;
+use Spark\Core\Annotation\Bean;
+use Spark\Core\Annotation\Configuration;
+use Spark\Core\Annotation\EnableApcuBeanCache;
+use Spark\Core\Annotation\SmartyViewConfiguration;
 
 /**
  * @Configuration()

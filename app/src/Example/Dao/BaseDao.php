@@ -1,6 +1,6 @@
 <?php
 
-namespace example\dao;
+namespace Example\Dao;
 
 class BaseDao {
 
