@@ -1,6 +1,7 @@
 <?php
 
-use spark\Engine;
+
+use Spark\Engine;
 
 error_reporting(E_ALL);
 
